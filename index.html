@@ -8,16 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Mehr Hejazi Bootstrap Portfolio</title>
+
    </head>
    <body>
+
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="page-top">
-      <img src="./assets/my-logo.png" height="100" alt="Mehr-Un-Nasa Hejazi Logo">
       </a>
+    
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link" href="#work">Work</a>
@@ -29,32 +32,127 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" 
-                href="#" 
-                target="_blank" 
-                alt="Resume">
-                Resume
-            </a>     
-      </div>
+          <a class="nav-link" href="#" target="_blank" alt="Resume">Resume-Coming soon</a>
+        </li>
+      </ul>
     </nav>
+
     <!-- Hero Section / Jumbotron-->
     <div class="jumbotron">
       <div class="row">
-                <div class="col-sm-1 col-md-2 col-lg-4"></div>
-                <div class="col-sm-1 col-md-2 col-lg-4">
-      <h1 class="display-4">Mehr-Un-Nasa Hejazi</h1>
+        <div class="col-sm-1 col-md-2 col-lg-4"></div>
+        <div class="col-sm-1 col-md-2 col-lg-4">
+          <!--
+                  <h1 class="display-4">Mehr-Un-Nasa Hejazi</h1>
+
+          -->
+     
       <q class="lead">The most complete gift of God is a life based on knowledge</q>
       <hr class="my-4">
       <p>Hazrat Ali ibn Abu-Talib</p>
-    </div>
+
+      <!-- TO UPDATE THE NAV BAR AND FIX THE QUOTE AND THE COLOUR SCHEME-->
+     
+       </div>
+    </div> 
+  
+  </div>
+  <div class="col-sm-1 col-md-2 col-lg-4"></div>
+
     <!-- Work Section / grid /bootstrap for each card project -->
+    <div class="container" id="work">
+      <h2 class="mb-5">Work</h2>
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="project card">
+            <img class="img-fluid mb-3" src="assets/pre-study-guide.jpg">
+            <a class="card-text" href="https://mewmew88.github.io/prework-study-guide/"><h5>Prework Study Guide</h5></a>
+            <p class="font-weight-light mb-0">A prework study guide based on HTML, CSS and JavaSccript</p>
+          </div>
+        </div>        
+        <div class="col-lg-3">
+          <div class="project card">
+            <img class="img-fluid mb-3" src="assets/website.jpg">   
+            <a class="card-text" href="https://mewmew88.github.io/first-challenge/"><h5>Website Challenge</h5></a>
+            <p class="font-weight-light mb-0">Refactoring a HTML page untill it meets accessibility standards </p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="project card">
+            <img class="img-fluid mb-3" src="assets/furniture.jpg">
+            <a class="card-text" href="https://www.google.com/"><h5>Furniture Website</h5></a>
+           <p class="font-weight-light mb-0">Folowing a step by step into creating a fake furniture website</p>
+          </div>            
+        </div>
+        <div class="col-lg-3">
+          <div class="project card">
+            <img class="img-fluid mb-3" src="assets/coffee.jpg">
+            <a class="card-text" href="https://www.google.com/"><h5>Coffee Blog</h5></a>
+            <p class="font-weight-light mb-0">A personal blog based around coffee sisters and life</p>
+          </div>            
+        </div>
+      </div>
+  </div>
 
     <!-- Skills Section / List of Skills -->
+    <div class="container" id="skills">
+      <h2 class="mb-5">Skills</h2>
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="skill card">
+              <i class="fa-brands fa-html5"></i>
+              <h5>HTML</h5>             
+          </div>
+        </div>        
+        <div class="col-lg-3">
+          <div class="skill card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h5>CSS</h5>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="skill card">
+              <i class="fa-brands fa-js"></i>
+              <h5>JavaScript</h5>
+          </div>            
+        </div>
+        <div class="col-lg-3">
+          <div class="skill card">
+              <i class="fa-brands fa-react"></i>
+              <h5>React</h5>
+          </div>            
+        </div>
+      </div>
+  </div>
 
-    <!-- About Me Section / Contact Me -->
-
-    <!-- Footer Section -->
-
+  <!-- About Me Section -->
+  <div class="container" id="about">
+    <h2 class="mb-5">About</h2>
+    
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="skill">
+            <img class="img-fluid square-circle mb-3" src="assets/avatar.jpg" alt="Profile Photo">                         
+        </div>
+      </div>        
+      <div class="col-lg-10">
+        <div class="skill">                
+            <p class="font-weight-light mb-0">
+             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+    </div>
+ </div>    
+ 
+    <!-- Footer Section / Contact Me -->
+    <section class="contact-grid" id="contact">
+      <h2 id="contact-heading">Contact Me</h2>
+      <div id="contact-info">
+        <a href="mailto:someone@example.com">Send email</a>
+      </div>
+    </section>
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,7 +1,307 @@
+@font-face {
+  font-family: 'ahsingRegular';
+  src: url(../assets/fonts/Ahsing-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sportingGrotesque';
+  src: url(../assets/fonts/SportingGrotesque-Regular.otf);
+}
+@font-face {
+  font-family: 'cyrene';
+  src: url(../assets/fonts/Cyrene-Regular.otf);
+}
 body {
-  background-color: gray;
+  background-color: burlywood;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  background: transparent;
+  z-index: 1;
+  mix-blend-mode: exclusion;
+  flex-wrap: nowrap;
+}
+.nav-link {
+  color: olivedrab;
+}
+.nav-item a:hover {
+  color: olive;
+} 
+
+.navLeft {
+  display: flex;
+  float: left;
+  font-family:'sportingGrotesque';
+  font-weight: 1000;
+  margin-left: 40px;
+  
+}
+.navRight {
+  display: flex;
+  float: right;
+  font-family:'sportingGrotesque';
+  font-weight: 1000;
+  margin-right: 40px;
+}
+.navTitle {
+ font-family: 'ahsingRegular';
+ color:olivedrab;
+ font-size: 3rem;
 }
 
-.display-4 {
-  transform: rotate(-0.25turn);
+.jumbotron {
+  display: flex;
+  align-items:flex-end;
+  margin: auto;
+  padding: 0;
+  height: 400px;
+  background-image: url("../assets/logo-1\(1\).jpg");
+  background-position: 
+  bottom 50px right 25px;  background-repeat: no-repeat;   
+  text-align: center;
+  color:olive;
+}
+.lead {
+  color: olive;
+}
+h1 {
+  font-family:'cyrene';
+  font-size: 4rem !important;
+}
+.lead {
+  font-family: 'sportingGrotesque';
+}
+h2 {
+  justify-content: center;
+}
+.portfolio {
+  background-color:olive;
+}
+.portfolioTitle {
+  background-image: url(../assets/02-portfolio-1.jpg);
+  background-clip: text;
+  height: 50px;
+  padding-top: 7px;
+  color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioCards {
+  display: flex;
+  padding: 0;
+  font-family: 'sportingGrotesque';
+  padding-left: 5px;
+  padding-right: 5px;  
+  justify-content: center;
+  background-color: olive;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-title {
+  color:blue;
+  mix-blend-mode: luminosity;
+}
+.card-text {
+  color:blue;
+  font-size: auto;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.card {
+  padding: 3px;
+  border: none;
+  background-color: olive;
+}
+.cardImage {
+  width:100%;
+  max-height:100%;
+  object-fit:contain;
+  overflow: hidden;
+  border-color: rgb(239, 239, 137);
+  border-radius: 1%;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+.portfolioCards a:link, a:visited, a:active {
+  color: rgba(128, 128, 0, 0.224);
+}
+
+.portfolioCards a:hover {
+  color: olivedrab;
+  text-decoration:none;
+  mix-blend-mode:exclusion;
+}
+
+.mySkills {
+  background-color: olive;
+}
+.mySkillsTitle {
+  background-image: url(../assets/images/title.jpg);
+  background-clip: text;
+  height: 50px;
+  padding-top: 7px;
+  color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip;
+  display: flex;
+  justify-content: center;
+  font-family:'sportingGrotesque';
+}
+.mySkillsSection {
+  height: 50px;
+  background-image: url(../assets/gradient1.jpg);
+  background-size: cover;
+  font-family:'sportingGrotesque';
+  color: olive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+.myWork {
+  font-family:'sportingGrotesque';
+}
+  
+.body {
+  background-color:olive;
+}
+
+.aboutMe {
+  background-color: olive;
+}
+.aboutMeTitle {
+  background-image: url(../assets/images/title.jpg);
+  background-clip: text;
+  height: 50px;
+  padding-top: 7px;
+  color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip;
+  font-family: 'sportingGrotesque';
+  display: flex;
+  justify-content: center;
+}
+.aboutMeSection {
+  min-height: 300px;
+  background-image: url(../assets/images/gradient3landscape.jpg);
+  display: flex;
+  background-size: cover;
+  text-align: justify;
+  justify-content: flex-start;
+}
+.aboutMeText {
+  font-family:'sportingGrotesque' ;
+  margin-top: 20px;
+  color: olive;
+  margin-right: 20px;
+  float:left;
+}
+.avatar {
+  float: left;
+  border-color:olive; 
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1%;
+  margin: 20px;
+  max-height: 300px;
+}
+.contactTitle {
+  background-image: url(../assets/images/title.jpg);
+  background-clip: text;
+  height: 50px;
+  padding-top: 7px;
+  color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip;
+  font-family: 'sportingGrotesque';
+  display: flex;
+  justify-content: center;
+}
+.contactSection {
+  height: 100px;
+  background-image: url(../assets/images/gradient1landscape.jpg);
+  background-size: cover;
+  font-family:'sportingGrotesque';
+  color: olive;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.empty2 {
+  margin-left: 30px;
+}
+.btn {
+  color: olive;
+  border-color: olive;
+}
+
+footer {
+  background-image: url(../assets/images/title.jpg);
+  background-clip: text;
+  height: 50px;
+  padding-top: 7px;
+  color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip;
+  font-family: 'sportingGrotesque';
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.name {
+  font-family: 'ahsingRegular';
+  padding-left: 7px;
+  font-size: 19px;
+}
+@media only screen and (max-width:960px) {
+  .navLeft {
+      margin-left: 20px;
+  }
+  .navRight {
+      margin-right: 20px;
+}
+.navTitle {
+  font-family: 'ahsingRegular';
+  color:olivedrab;
+  font-size: 1.75rem;
+}
+.nav {
+  font-size: 10px;
+}
 }
